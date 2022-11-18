@@ -1,0 +1,23 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    "source.sortMembers": true
+  },
+  "eslint.workingDirectories": [
+    "./services/events",
+    "./services/exports",
+    "./services/shared",
+    "./services/sale",
+    "./services/warranty",
+  ],
+  "typescript.preferences.importModuleSpecifier": "relative"
+}
